@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container1{
+    width: 1400px;
+    margin: 0 auto;
+}
+#header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+}
+.header{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    height: 45px;
+    
+}
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: #253659;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    color: #253659;
+}
+/*________1_________________*/
+#hero{
+    background: url("../img/Baytik_poselok_View030000.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+.container2{
+    width: 1140px;
+    margin: 0 auto;
+}
+.theme{
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 250px;
+}
+.knopka{
+    position: absolute;
+    left: 799px;
+    top: 457px;
+}
+/*_______2___________________*/
+.about__tittle{
+    margin-top: 100px;
+    font-family: Raleway ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #253659;
+}
+.about__desc{
+    margin-top: 10px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #253659;
+}
+.about__items{
+    display: flex;
+    justify-content: space-around;
+}
+.item__tittle{
+    margin-top: 10px;
+    width: 158px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #253659;
+}
+.about__item{
+    margin-top: 80px;
+    text-align: center;
+}
+/*_______3____________________*/
+#about-company {
+    margin-top: 150px;
+    background: url("../img/Baytik_poselok_View010004.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+.about-company__title{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+}
+.about-company__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-company__item1{
+    margin-top: 50px;
+    width: 400px;
+    height: 240px;
+    position: relative;
+    background: rgba(37, 54, 89, 0.8);
+    backdrop-filter: blur(10px);
+}
+.about-company__item2{
+    margin-top: 200px;
+    width: 400px;
+    height: 140px;
+    position: relative;
+    background: rgba(37, 54, 89, 0.8);
+    backdrop-filter: blur(10px);
+}
+.about-company__item3{
+    margin-top: 80px;
+    margin-left: 150px;
+    width: 400px;
+    height: 160px;
+    position: relative;
+    background: rgba(37, 54, 89, 0.8);
+    backdrop-filter: blur(10px);
+}
+.persons{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -70px;
+}
+.name-persons{
+    margin-top: 30px;
+    margin-left: 90px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.profession-persons{
+    margin-left: 90px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-bottom: 0.5px solid #009EE3;
+    width: 50%;
+}
+.text-persons{
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+/*_________4___________________*/
+.guarantees-company{
+    display: flex;
+    justify-content: space-between;
+    width: 130%;
+}
+.text-guarantee{
+    width: 140px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #253659;
+}
+.guarantee-company{
+    text-align: center;
+}
+.information-about-company{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guarantees-company__title{
+    width: 600px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #253659;
+}
+/*____________5__________________*/
+
+#registration-list{
+    margin-top: 30px;
+    background: url("../img/registration-list.png") no-repeat center/cover;
+    min-height: 70vh;
+}
+.logotip{
+    margin-top: 220px;
+}
+.registration-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    left: 800px;
+    margin-top: -260px;
+    width: 440px;
+    height: 420px;
+    background: rgba(37, 54, 89, 0.8);
+    backdrop-filter: blur(4px);
+}
+.in-registration-item{
+    position: absolute;
+}
+.registration-item__titlle{
+    width: 300px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.inputs{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 300px;
+    height: 60px;
+    background: rgba(37, 54, 89, 0.8);
+    backdrop-filter: blur(4px);
+}
+.button{
+    width: 217px;
+    height: 60px;
+}
+/*____________6_____________________*/
+
+#about__adress-company{
+    background: #253659;
+    min-height: 35vh;
+}
+.adress-company__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+.text__item{
+    margin-top: 20px;
+    width: 200px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.items__title{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.menu-numbers__title{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 9px;
+    color: white;
+}
+.logotips{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/*______________7_______________*/
+#footer{
+    margin-top: 1px;
+    background: #253659;
+    padding: 30px 0;
+}
